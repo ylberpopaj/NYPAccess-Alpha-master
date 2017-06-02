@@ -1,0 +1,19 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkbackground"
+
+    tools:context="com.example.ylberpopaj.testapp.facebook_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <WebView
+
+        android:id="@+id/webViewFacebook"
+        android:layout_width="92dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="6dp" />
+</android.support.constraint.ConstraintLayout>
